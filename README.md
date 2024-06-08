@@ -1,26 +1,24 @@
 # Sign Language Detection Using YOLOv5
 
-## An Efficient Solution for Real-Time Sign Language Recognition
+## Detect Sign Language with YOLOv5
 
-This repository contains the code and resources for building a sign language detection system using YOLOv5. The project is designed to detect and classify various sign language gestures in real-time using a deep learning approach.
+Welcome to the Sign Language Detection project! This application utilizes YOLOv5 to detect and classify sign language gestures in real-time. The project is designed to aid in communication for the deaf and hard-of-hearing community by providing a tool to translate sign language into text.
 
-## What This Repository Contains
+## What This Project Does
 
-- **Data Collection**: Scripts for collecting and labeling image data for training.
-- **Model Training**: Notebooks for setting up and training the YOLOv5 model on the collected data.
-- **Detection**: Code for running the trained model to detect sign language gestures.
+This project leverages the power of the YOLOv5 object detection model to accurately detect and classify various sign language gestures. By using a webcam or video input, the model can identify specific signs and translate them into text, making communication more accessible.
 
-## Project Playlist
+## Demonstration
 
-This project was developed by following the "Sign Language Detection Using YOLOv5" tutorial on YouTube. You can find the complete playlist [here](https://youtube.com/playlist?list=PLkz_y24mlSJYWpwFbU8fyaBSwihoVHiJz).
+![Sign Language Detection Demo](https://example.com/demo.gif)
 
-## How to Use This Repository
+## Installation and Usage Instructions 
 
-### Data Collection
+If you would like to run the application locally or contribute to its development, follow these steps:
 
-1. Open `data-collection.ipynb` in Jupyter Notebook or Google Colab.
-2. Follow the instructions to collect and label images of various sign language gestures.
-3. Save the collected data in the specified directory.
+### Prerequisites
+
+Ensure you have Python 3.x installed on your machine. You can download it from [python.org](https://www.python.org/downloads/).
 
 ### Model Training
 
@@ -44,5 +42,27 @@ This project was developed by following the "Sign Language Detection Using YOLOv
    ```bash
    python run.py
    ```
-   
-Happy coding and good luck with your sign language detection journey!
+
+### File Descriptions
+
+- `data-collection.ipynb`: Notebook for collecting and labeling sign language images.
+- `sign-lang-detection.ipynb`: Notebook for training the YOLOv5 model on the collected sign language data.
+- `yolov5`: Directory containing the YOLOv5 model and related scripts.
+
+## Contributor Expectations
+
+If you would like to contribute to the Sign Language Detection project, please follow these guidelines:
+
+1. **Fork the repository** and create your feature branch (`git checkout -b feature/AmazingFeature`).
+2. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`).
+3. **Push to the branch** (`git push origin feature/AmazingFeature`).
+4. **Open a pull request**.
+
+Before contributing, ensure your code adheres to the existing style and includes tests where appropriate. Contributions that improve the application's functionality, performance, or usability are highly appreciated.
+
+## Credits
+
+This project was created following the excellent tutorials in the [Sign Language Detection YouTube Playlist](https://youtube.com/playlist?list=PLkz_y24mlSJYWpwFbU8fyaBSwihoVHiJz&si=ssh-POaD9XPm4Q8g). Special thanks to the content creator for providing comprehensive guidance on building this project.
+
+Thank you for using the Sign Language Detection project!
+
