@@ -8,9 +8,9 @@ Welcome to the Sign Language Detection project! This application utilizes YOLOv5
 
 This project leverages the power of the YOLOv5 object detection model to accurately detect and classify various sign language gestures. By using a webcam or video input, the model can identify specific signs and translate them into text, making communication more accessible.
 
-## Demonstration
+## Demonstration (Picture)
 
-![Sign Language Detection Demo](https://example.com/demo.gif)
+![Sign Language Detection Demo Pic](https://github.com/atandritC/Demo-GIFs-Pictures/blob/main/Sign%20Language%20Detection.jpeg)
 
 ## Installation and Usage Instructions 
 
