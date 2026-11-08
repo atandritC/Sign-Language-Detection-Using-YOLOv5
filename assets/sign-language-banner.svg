@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Sign Language Detection using YOLOv5</title>
+  <desc id="desc">A dark blue computer vision banner with an abstract hand outline framed by object-detection corner marks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="60" y1="10" x2="1515" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1725"/>
+      <stop offset=".6" stop-color="#132B41"/>
+      <stop offset="1" stop-color="#1D4562"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(-120 288 -400 -167 1391 98)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1596C4" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#1596C4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" stroke="#BCD4E5" stroke-opacity=".06"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="15" stdDeviation="16" flood-color="#020810" flood-opacity=".38"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="520" rx="30" fill="url(#bg)"/>
+  <rect width="1600" height="520" rx="30" fill="url(#glow)"/>
+  <rect width="1600" height="520" rx="30" fill="url(#grid)"/>
+  <path d="M0 449c252-49 438 35 691 15 321-25 511-104 909-48v104H0V449Z" fill="#06101A" fill-opacity=".3"/>
+  <text x="102" y="139" fill="#7DD3F0" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3.3">COMPUTER VISION · CUSTOM OBJECT DETECTION</text>
+  <text x="98" y="239" fill="#F3F7FA" font-family="Segoe UI,Arial,sans-serif" font-size="59" font-weight="750" letter-spacing="-2">Sign Language</text>
+  <text x="102" y="307" fill="#F3F7FA" font-family="Segoe UI,Arial,sans-serif" font-size="59" font-weight="750" letter-spacing="-2">Detection</text>
+  <text x="104" y="361" fill="#B7CDDB" font-family="Georgia,Times New Roman,serif" font-size="28">YOLOv5 · 15 gesture classes</text>
+  <path d="M104 398h62" stroke="#4FB9DF" stroke-width="4" stroke-linecap="round"/>
+  <text x="104" y="451" fill="#9AB7C9" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" letter-spacing="1.8">COLLECT  ·  ANNOTATE  ·  TRAIN  ·  DETECT</text>
+  <g filter="url(#shadow)" transform="translate(990 77)">
+    <rect x="4" y="4" width="420" height="344" rx="24" fill="#0D2032" fill-opacity=".72" stroke="#47708B" stroke-width="1.5"/>
+    <path d="M44 89V49h40M384 89V49h-40M44 268v40h40M384 268v40h-40" stroke="#54B9DF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Abstract hand outline, intentionally illustrative rather than a sign reference -->
+    <path d="M164 264c-9-23-22-53-31-78-5-13-8-25-6-31 2-8 13-11 19-4l29 39-7-91c-1-11 7-18 16-18 10 0 15 7 16 17l8 73 4-105c0-11 7-18 17-18 10 1 15 8 15 19l-1 102 13-77c2-10 9-15 18-13 10 2 14 10 12 20l-11 83 16-53c3-10 11-14 20-11 10 3 12 11 9 21l-26 91c-6 22-17 39-33 53l-12 11h-91l-15-10Z" stroke="#D9EEF7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M178 244c24 9 51 12 82 9M207 176v38M240 175v42M275 184v39" stroke="#4FB9DF" stroke-opacity=".8" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="325" cy="106" r="7" fill="#F28B72"/>
+    <text x="335" y="111" fill="#AFC7D6" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">DETECTION FRAME</text>
+    <rect x="91" y="326" width="246" height="1" fill="#42647B"/>
+    <text x="210" y="380" text-anchor="middle" fill="#9CB7C8" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="1.4">FRAME-BY-FRAME GESTURE LABELING</text>
+  </g>
+</svg>
